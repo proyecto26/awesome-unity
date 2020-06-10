@@ -13,8 +13,14 @@ A community driven resources for Unity development.
 ## Tutorials
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
+## Resources
+- [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) - A wonderful list of Game Development resources.
+
 ## Tools
 - [OpenUPM](https://openupm.com) - Open Source Unity Package Registry.
+
+## Other Awesome Lists
+- [Awesome opensource Unity packages](https://github.com/StefanoCecere/awesome-opensource-unity) - A list of curated opensource Unity packages for future proof Game Developers.
 
 ## Supporting 🍻
 I believe in Unicorns 🦄
