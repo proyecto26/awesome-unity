@@ -22,6 +22,9 @@ A community driven resources for Unity development.
 ## Tools
 - [OpenUPM](https://openupm.com) - Open Source Unity Package Registry.
 
+## YouTube Channels
+- [Brackeys](https://www.youtube.com/user/Brackeys/videos) - Game Dev Tutorials
+
 ## Other Awesome Lists
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d) - A categorized collection of awesome opensource unity3d repos.
 - [Awesome Unity Open Source on GitHub (800+)](https://github.com/baba-s/awesome-unity-open-source-on-github) - A categorized collection of awesome Unity open source on GitHub.
