@@ -1,6 +1,9 @@
 # Awesome Unity
 A community driven resources for Unity development.
 
+## Editor
+- [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
+
 ## Controllers
 - [2D-Platformer-Hunter](https://github.com/ta-david-yu/2D-Platformer-Hunter) - A 2D Platformer Controller in Unity.
 
