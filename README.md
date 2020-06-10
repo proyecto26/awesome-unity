@@ -20,7 +20,7 @@ A community driven resources for Unity development.
 - [OpenUPM](https://openupm.com) - Open Source Unity Package Registry.
 
 ## Other Awesome Lists
-- [Awesome opensource Unity packages](https://github.com/StefanoCecere/awesome-opensource-unity) - A list of curated opensource Unity packages for future proof Game Developers.
+- [awesome-unity3d](https://github.com/insthync/awesome-unity3d) - A categorized collection of awesome opensource unity3d repos.
 
 ## Supporting 🍻
 I believe in Unicorns 🦄
