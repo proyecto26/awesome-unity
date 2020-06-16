@@ -136,6 +136,54 @@ public class ExampleBehaviourScript : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>Check State</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class CheckState : MonoBehaviour
+{
+    public GameObject myObject;
+
+    void Start ()
+    {
+        Debug.Log("Active Self: " + myObject.activeSelf);
+        Debug.Log("Active in Hierarchy" + myObject.activeInHierarchy);
+    }
+}
+  ```
+</details>
+<details>
+  <summary>Translate and Rotate</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class TransformFunctions : MonoBehaviour
+{
+    public float moveSpeed = 10f;
+    public float turnSpeed = 50f;
+    
+    void Update ()
+    {
+        if(Input.GetKey(KeyCode.UpArrow))
+            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        
+        if(Input.GetKey(KeyCode.DownArrow))
+            transform.Translate(-Vector3.forward * moveSpeed * Time.deltaTime);
+        
+        if(Input.GetKey(KeyCode.LeftArrow))
+            transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
+        
+        if(Input.GetKey(KeyCode.RightArrow))
+            transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -172,6 +220,8 @@ public class ExampleBehaviourScript : MonoBehaviour
 - [Update and FixedUpdate](https://youtu.be/u42aWzAIAqg) - How to effect changes every frame with the Update and FixedUpdate functions, and their differences.
 - [Vector Maths](https://youtu.be/e3z91RqZPAk) - A primer on Vector maths - as well as information on the Dot and Cross products.
 - [Enabling and Disabling Components](https://youtu.be/PCdg3cnQfZ4) - How to enable and disable components via script during runtime.
+- [Activating GameObjects](https://youtu.be/MhPFB-rAdlg) - Learn about the behaviour component that is a Unity script, and how to Create and Attach them to objects.
+- [Translate and Rotate](https://youtu.be/32JkMANaMpk) - How to use the two transform functions Translate and Rotate to effect a non-rigidbody object's position and rotation.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
