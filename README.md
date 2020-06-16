@@ -346,6 +346,30 @@ public class DatatypeScript : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>Using Instantiate</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class UsingInstantiate : MonoBehaviour
+{
+    public Rigidbody rocketPrefab;
+    public Transform barrelEnd;
+    
+    
+    void Update ()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            Rigidbody rocketInstance = Instantiate(rocketPrefab, barrelEnd.position, barrelEnd.rotation) as Rigidbody;
+            rocketInstance.AddForce(barrelEnd.forward * 5000);
+        }
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -392,6 +416,8 @@ public class DatatypeScript : MonoBehaviour
 - [GetComponent](https://youtu.be/xbDKC4zP9XY) - How to use the GetComponent function to address properties of other scripts or components.
 - [DeltaTime](https://youtu.be/Gcoj3llfzSw) - What is Delta Time and how can it be used in your games to smooth and interpret values.
 - [DataTypes](https://youtu.be/IVcx-tSxjys) - Learn the important differences between Value and Reference data types, in order to better understand how variables work.
+- [Classes](https://youtu.be/odKtPBsyFnw) - How to use Classes to store and organise your information, and how to create constructors to work with parts of your class.
+- [Instantiate](https://youtu.be/Q3u0x8VRJS4) - How to use Instantiate to create clones of a Prefab during runtime.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
