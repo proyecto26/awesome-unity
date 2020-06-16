@@ -456,6 +456,9 @@ public class EnumScript : MonoBehaviour
   ```
 </details>
 
+## Scripting
+- [C-Sharp-Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise) - Promises library for C# for management of asynchronous operations.
+
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
 
