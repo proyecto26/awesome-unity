@@ -523,6 +523,10 @@ public class EnumScript : MonoBehaviour
 ## YouTube Channels
 - [Brackeys](https://www.youtube.com/user/Brackeys/videos) - Game Dev Tutorials
 
+## Architecture
+- [SOLID](https://github.com/ugonnathelma/articles/blob/master/the-solid-principles-in-pictures/the-solid-principles-in-pictures.md) - The S.O.L.I.D Principles in Pictures.
+- [.Net Documentation](https://github.com/proyecto26/dotnet-documentation) - SOLID, DI, N-Tier, Logs, etc with dotnet.
+
 ## Other Awesome Lists
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d) - A categorized collection of awesome opensource unity3d repos.
 - [Awesome Unity Open Source on GitHub (800+)](https://github.com/baba-s/awesome-unity-open-source-on-github) - A categorized collection of awesome Unity open source on GitHub.
