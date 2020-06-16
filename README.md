@@ -406,9 +406,9 @@ public class InvokeScript : MonoBehaviour
     
     void Start()
     {
-        Invoke ("SpawnObject", 2);
+        Invoke (nameof(SpawnObject), 2);
         // Repeating
-        InvokeRepeating("SpawnObject", 2, 1);
+        InvokeRepeating(nameof(SpawnObject), 2, 1);
         // TODO: Use UniRx/Observables instead :)
     }
     
@@ -417,6 +417,40 @@ public class InvokeScript : MonoBehaviour
         float x = Random.Range(-2.0f, 2.0f);
         float z = Random.Range(-2.0f, 2.0f);
         Instantiate(target, new Vector3(x, 2, z), Quaternion.identity);
+    }
+}
+  ```
+</details>
+<details>
+  <summary>Enumerations</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class EnumScript : MonoBehaviour 
+{
+    enum Direction {North, East, South, West};
+
+        void Start () 
+    {
+        Direction myDirection;
+        
+        myDirection = Direction.North;
+    }
+    
+    Direction ReverseDirection (Direction dir)
+    {
+        if(dir == Direction.North)
+            dir = Direction.South;
+        else if(dir == Direction.South)
+            dir = Direction.North;
+        else if(dir == Direction.East)
+            dir = Direction.West;
+        else if(dir == Direction.West)
+            dir = Direction.East;
+        
+        return dir;     
     }
 }
   ```
@@ -471,6 +505,10 @@ public class InvokeScript : MonoBehaviour
 - [Instantiate](https://youtu.be/Q3u0x8VRJS4) - How to use Instantiate to create clones of a Prefab during runtime.
 - [Arrays](https://youtu.be/Zn4BDIXhy-M) - Using arrays to collect variables together into a more manageable form.
 - [Invoke](https://youtu.be/-YgM4DXGeq4) - The Invoke functions allow you to schedule method calls to occur at a later time.
+- [Enumerations](https://youtu.be/L2E2aB1CMYw) - Enumerations allow you to create a collection of related constants.
+- [Switch Statements](https://youtu.be/-PWvI3q6_OE) - Switch statements act like streamline conditionals. They are useful for when you want to compare a single variable against a series of constants.
+- [Creating a Text Based Adventure Part 1](https://youtu.be/jAf1I1UWo5Q) - Learn how to program a text based adventure game in which the player explores a series of rooms by reading text and inputting commands via the keyboard.
+- [Creating a Text Based Adventure Part 2](https://youtu.be/Bak8azAM_cA) - Learn how to to display the descriptions of all the items in a room when we enter it.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
