@@ -472,6 +472,7 @@ public class EnumScript : MonoBehaviour
 </details>
 
 ## Scripting
+- [UniRx](https://github.com/neuecc/UniRx) - Reactive Extensions for Unity.
 - [C-Sharp-Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise) - Promises library for C# for management of asynchronous operations.
 - [FSM_Command_Patterns](https://github.com/hansschaa/FSM_Command_Patterns) - A basic platform game developed for help to undertanding State pattern and Command pattern.
 
