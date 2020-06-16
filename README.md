@@ -184,6 +184,74 @@ public class TransformFunctions : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>Look At</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class CameraLookAt : MonoBehaviour
+{
+    public Transform target;
+    
+    void Update ()
+    {
+        transform.LookAt(target);
+    }
+}
+  ```
+</details>
+<details>
+  <summary>Linear Interpolation</summary>
+  
+  ```csharp
+// In this case, result = 4
+float result = Mathf.Lerp (3f, 5f, 0.5f);
+// The Mathf.Lerp function takes 3 float parameters: one representing the value to interpolate from; another representing the value to interpolate to and a final float representing how far to interpolate
+
+Vector3 from = new Vector3 (1f, 2f, 3f);
+Vector3 to = new Vector3 (5f, 6f, 7f);
+
+// Here result = (4, 5, 6)
+Vector3 result = Vector3.Lerp (from, to, 0.75f);
+
+// The same principle is applied when using Color.Lerp.
+// In the Color struct, colours are represented by 4 floats representing red, blue, green and alpha.
+// When using Lerp, these floats are interpolated just as with Mathf.Lerp and Vector3.Lerp.
+
+void Update ()
+{
+    light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f * Time.deltaTime);
+    // With deltaTime, the change to intensity would happen per second instead of per frame.
+}
+  ```
+</details>
+<details>
+  <summary>GetAxis Horizontal and Vertical</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class DualAxisExample : MonoBehaviour 
+{
+    public float range;
+    public GUIText textOutput;
+
+    void Update () 
+    {
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        float xPos = h * range;
+        float yPos = v * range;
+        
+        transform.position = new Vector3(xPos, yPos, 0);
+        textOutput.text = "Horizontal Value Returned: "+h.ToString("F2")+"\nVertical Value Returned: "+v.ToString("F2");    
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -222,6 +290,10 @@ public class TransformFunctions : MonoBehaviour
 - [Enabling and Disabling Components](https://youtu.be/PCdg3cnQfZ4) - How to enable and disable components via script during runtime.
 - [Activating GameObjects](https://youtu.be/MhPFB-rAdlg) - Learn about the behaviour component that is a Unity script, and how to Create and Attach them to objects.
 - [Translate and Rotate](https://youtu.be/32JkMANaMpk) - How to use the two transform functions Translate and Rotate to effect a non-rigidbody object's position and rotation.
+- [LookAt](https://youtu.be/cAAqf5J7_9w) - How to make a game object's transform face another's by using the LookAt function.
+- [Destroy](https://youtu.be/pRDj3jss5t8) - How to use the **Destroy** function to remove GameObjects and Components at runtime.
+- [GetButton and GetKey](https://youtu.be/-A7D5Rcumz4) - How to get button or key for input and how these axes behave / can be modified with the Input manager.
+- [GetAxis](https://youtu.be/MK4OmsViqMA) - How to "get axis" based input for your games in Unity and how these axes can be modified with the Input manager.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
