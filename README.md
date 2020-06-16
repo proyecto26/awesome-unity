@@ -269,6 +269,37 @@ public class MouseClick : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>Using Other Components</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class UsingOtherComponents : MonoBehaviour
+{
+    public GameObject otherGameObject;
+    
+    private AnotherScript anotherScript;
+    private YetAnotherScript yetAnotherScript;
+    private BoxCollider boxCol;
+    
+    void Awake ()
+    {
+        anotherScript = GetComponent<AnotherScript>();
+        yetAnotherScript = otherGameObject.GetComponent<YetAnotherScript>();
+        boxCol = otherGameObject.GetComponent<BoxCollider>();
+    }
+    
+    void Start ()
+    {
+        boxCol.size = new Vector3(3,3,3);
+        Debug.Log("The player's score is " + anotherScript.playerScore);
+        Debug.Log("The player has died " + yetAnotherScript.numberOfPlayerDeaths + " times");
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -312,6 +343,7 @@ public class MouseClick : MonoBehaviour
 - [GetButton and GetKey](https://youtu.be/-A7D5Rcumz4) - How to get button or key for input and how these axes behave / can be modified with the Input manager.
 - [GetAxis](https://youtu.be/MK4OmsViqMA) - How to "get axis" based input for your games in Unity and how these axes can be modified with the Input manager.
 - [OnMouseDown](https://youtu.be/c69oZprM1oc) - How to detect mouse clicks on a Collider or GUI element.
+- [GetComponent](https://youtu.be/xbDKC4zP9XY) - How to use the GetComponent function to address properties of other scripts or components.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
