@@ -370,6 +370,57 @@ public class UsingInstantiate : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>Arrays</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class Arrays : MonoBehaviour
+{
+    public GameObject[] players;
+
+    void Start ()
+    {
+        players = GameObject.FindGameObjectsWithTag("Player");
+        
+        for(int i = 0; i < players.Length; i++)
+        {
+            Debug.Log("Player Number "+i+" is named "+players[i].name);
+        }
+    }
+}
+  ```
+</details>
+<details>
+  <summary>Invoke</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class InvokeScript : MonoBehaviour 
+{
+    public GameObject target;
+    
+    void Start()
+    {
+        Invoke ("SpawnObject", 2);
+        // Repeating
+        InvokeRepeating("SpawnObject", 2, 1);
+        // TODO: Use UniRx/Observables instead :)
+    }
+    
+    void SpawnObject()
+    {
+        float x = Random.Range(-2.0f, 2.0f);
+        float z = Random.Range(-2.0f, 2.0f);
+        Instantiate(target, new Vector3(x, 2, z), Quaternion.identity);
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -418,6 +469,8 @@ public class UsingInstantiate : MonoBehaviour
 - [DataTypes](https://youtu.be/IVcx-tSxjys) - Learn the important differences between Value and Reference data types, in order to better understand how variables work.
 - [Classes](https://youtu.be/odKtPBsyFnw) - How to use Classes to store and organise your information, and how to create constructors to work with parts of your class.
 - [Instantiate](https://youtu.be/Q3u0x8VRJS4) - How to use Instantiate to create clones of a Prefab during runtime.
+- [Arrays](https://youtu.be/Zn4BDIXhy-M) - Using arrays to collect variables together into a more manageable form.
+- [Invoke](https://youtu.be/-YgM4DXGeq4) - The Invoke functions allow you to schedule method calls to occur at a later time.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
