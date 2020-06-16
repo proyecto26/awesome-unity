@@ -252,6 +252,23 @@ public class DualAxisExample : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>OnMouseDown</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class MouseClick : MonoBehaviour
+{
+    void OnMouseDown ()
+    {
+        rigidbody.AddForce(-transform.forward * 500f);
+        rigidbody.useGravity = true;
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -294,6 +311,7 @@ public class DualAxisExample : MonoBehaviour
 - [Destroy](https://youtu.be/pRDj3jss5t8) - How to use the **Destroy** function to remove GameObjects and Components at runtime.
 - [GetButton and GetKey](https://youtu.be/-A7D5Rcumz4) - How to get button or key for input and how these axes behave / can be modified with the Input manager.
 - [GetAxis](https://youtu.be/MK4OmsViqMA) - How to "get axis" based input for your games in Unity and how these axes can be modified with the Input manager.
+- [OnMouseDown](https://youtu.be/c69oZprM1oc) - How to detect mouse clicks on a Collider or GUI element.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
