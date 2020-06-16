@@ -57,6 +57,66 @@ public class CameraController : MonoBehaviour {
 }
   ```
 </details>
+<details>
+  <summary>Collectable Objects</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class PlayerController : MonoBehaviour {
+
+    void OnTriggerEnter(Collider other) 
+    {
+        if (other.gameObject.CompareTag ("Pick Up"))
+        {
+            other.gameObject.SetActive (false);
+        }
+    }
+}
+  ```
+</details>
+<details>
+  <summary>Score Display</summary>
+  
+  ```csharp
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+
+public class PlayerController : MonoBehaviour {
+
+    public Text countText;
+    public Text winText;
+    private int count;
+
+    void Start ()
+    {
+        count = 0;
+        SetCountText();
+        winText.text = "";
+    }
+
+    void OnTriggerEnter(Collider other) 
+    {
+        if (other.gameObject.CompareTag ( "Pick Up"))
+        {
+            count = count + 1;
+            SetCountText ();
+        }
+    }
+
+    void SetCountText ()
+    {
+        countText.text = "Count: " + count.ToString ();
+        if (count >= 12)
+        {
+            winText.text = "You Win!";
+        }
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -74,11 +134,15 @@ public class CameraController : MonoBehaviour {
 - [Coding in C# in Unity for beginners](https://unity3d.com/learning-c-sharp-in-unity-for-beginners) - The very basics of coding, like variables, functions and classes, and how to use them.
 
 ## Tutorials
+- [Introduction to Roll-a-Ball](https://youtu.be/RFlh8pTf4DU) - An introduction to the Roll-a-ball project, showing the final game and describing what will be covered in this tutorials.
 - [Setting up the Game](https://youtu.be/W_fAidYRGzs) - Creating a new project and setting up the basic game.
 - [Moving the Player](https://youtu.be/7C7WWxUxPZE) - Moving the player object using player input and physics forces.
 - [Moving the Camera](https://youtu.be/Xcm5H2J95iI) - Moving the camera relative to the player.
 - [Setting up the Play Area](https://youtu.be/dahT0wRVO1Q) - Setting up the play area.
-- [Introduction to Roll-a-Ball](https://youtu.be/RFlh8pTf4DU) - An introduction to the Roll-a-ball project, showing the final game and describing what will be covered in this tutorials.
+- [Creating Collectable Objects](https://youtu.be/HlDGSStxuHI) - Creating and placing the "Pick Up" collectables.
+- [Collecting the Pick Up Objects](https://youtu.be/XtR29MmzuT0) - Collecting the pick-up objects; discussing physics, collisions and triggers.
+- [Displaying the Score and Text](https://youtu.be/bFSLI2cmYYo) - Counting, displaying text and ending the game.
+- [Building the Game](https://youtu.be/hSg3e1M3hKY) - Building the game as a Standalone application.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
