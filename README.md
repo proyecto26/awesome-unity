@@ -1,6 +1,63 @@
 # Awesome Unity
 A community driven resources for Unity development.
 
+## Code Examples
+<details>
+  <summary>Player Movement</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class PlayerController : MonoBehaviour {
+
+    public float speed;
+
+    private Rigidbody rb;
+
+    void Start ()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate ()
+    {
+        float moveHorizontal = Input.GetAxis ("Horizontal");
+        float moveVertical = Input.GetAxis ("Vertical");
+
+        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+
+        rb.AddForce (movement * speed);
+    }
+}
+  ```
+</details>
+<details>
+  <summary>Moving Camera</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class CameraController : MonoBehaviour {
+
+    public GameObject player;
+
+    private Vector3 offset;
+
+    void Start ()
+    {
+        offset = transform.position - player.transform.position;
+    }
+
+    void LateUpdate ()
+    {
+        transform.position = player.transform.position + offset;
+    }
+}
+  ```
+</details>
+
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
 
@@ -19,6 +76,8 @@ A community driven resources for Unity development.
 ## Tutorials
 - [Setting up the Game](https://youtu.be/W_fAidYRGzs) - Creating a new project and setting up the basic game.
 - [Moving the Player](https://youtu.be/7C7WWxUxPZE) - Moving the player object using player input and physics forces.
+- [Moving the Camera](https://youtu.be/Xcm5H2J95iI) - Moving the camera relative to the player.
+- [Setting up the Play Area](https://youtu.be/dahT0wRVO1Q) - Setting up the play area.
 - [Introduction to Roll-a-Ball](https://youtu.be/RFlh8pTf4DU) - An introduction to the Roll-a-ball project, showing the final game and describing what will be covered in this tutorials.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
