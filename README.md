@@ -169,6 +169,9 @@ public class ExampleBehaviourScript : MonoBehaviour
 - [Loops](https://youtu.be/Jefkb3Gm7vE) - How to use the For, While and Do-While Loops as well as the For Each loop to repeat actions in code.
 - [Scope and Access Modifiers](https://youtu.be/_0oBLCJcpCs) - Understanding variable & function scope and accessibility.
 - [Awake and Start](https://youtu.be/4QdjoV63wjM) - How to use Awake and Start, two of Unity's initialisation functions.
+- [Update and FixedUpdate](https://youtu.be/u42aWzAIAqg) - How to effect changes every frame with the Update and FixedUpdate functions, and their differences.
+- [Vector Maths](https://youtu.be/e3z91RqZPAk) - A primer on Vector maths - as well as information on the Dot and Cross products.
+- [Enabling and Disabling Components](https://youtu.be/PCdg3cnQfZ4) - How to enable and disable components via script during runtime.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
