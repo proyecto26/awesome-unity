@@ -167,7 +167,8 @@ public class ExampleBehaviourScript : MonoBehaviour
 - [Conventions and Syntax](https://youtu.be/0mks0QaWCNQ) - Learn about some basic conventions and syntax of writing code.
 - [If Statements](https://youtu.be/PQihrWCOSic) - How to use IF statements to set conditions in your code.
 - [Loops](https://youtu.be/Jefkb3Gm7vE) - How to use the For, While and Do-While Loops as well as the For Each loop to repeat actions in code.
-- [Scope and Access Modifiers]() - Understanding variable & function scope and accessibility.
+- [Scope and Access Modifiers](https://youtu.be/_0oBLCJcpCs) - Understanding variable & function scope and accessibility.
+- [Awake and Start](https://youtu.be/4QdjoV63wjM) - How to use Awake and Start, two of Unity's initialisation functions.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
