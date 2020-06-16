@@ -165,6 +165,9 @@ public class ExampleBehaviourScript : MonoBehaviour
 - [Scripts as Behaviour Components](https://youtu.be/Z0Z7xc18CcA) - Learn about the behaviour component that is a Unity script, and how to Create and Attach them to objects.
 - [Variables And Functions](https://youtu.be/-c1RsydH2nA) - What are Variables and Functions, and how do they store and process information for us?
 - [Conventions and Syntax](https://youtu.be/0mks0QaWCNQ) - Learn about some basic conventions and syntax of writing code.
+- [If Statements](https://youtu.be/PQihrWCOSic) - How to use IF statements to set conditions in your code.
+- [Loops](https://youtu.be/Jefkb3Gm7vE) - How to use the For, While and Do-While Loops as well as the For Each loop to repeat actions in code.
+- [Scope and Access Modifiers]() - Understanding variable & function scope and accessibility.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
