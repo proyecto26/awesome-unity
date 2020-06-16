@@ -300,6 +300,52 @@ public class UsingOtherComponents : MonoBehaviour
 }
   ```
 </details>
+<details>
+  <summary>Using Delta Times</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class UsingDeltaTime : MonoBehaviour
+{
+    public float speed = 8f; 
+    public float countdown = 3.0f;
+    
+    void Update ()
+    {
+        countdown -= Time.deltaTime;
+        if(countdown <= 0.0f)
+            light.enabled = true;
+        
+         if(Input.GetKey(KeyCode.RightArrow))
+            transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+    }   
+}
+  ```
+</details>
+<details>
+  <summary>Using Data Types</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class DatatypeScript : MonoBehaviour 
+{
+    void Start () 
+    {
+        //Value type variable
+        Vector3 pos = transform.position;
+        pos = new Vector3(0, 2, 0);
+        
+        //Reference type variable
+        Transform tran = transform;
+        tran.position = new Vector3(0, 2, 0);
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
@@ -344,6 +390,8 @@ public class UsingOtherComponents : MonoBehaviour
 - [GetAxis](https://youtu.be/MK4OmsViqMA) - How to "get axis" based input for your games in Unity and how these axes can be modified with the Input manager.
 - [OnMouseDown](https://youtu.be/c69oZprM1oc) - How to detect mouse clicks on a Collider or GUI element.
 - [GetComponent](https://youtu.be/xbDKC4zP9XY) - How to use the GetComponent function to address properties of other scripts or components.
+- [DeltaTime](https://youtu.be/Gcoj3llfzSw) - What is Delta Time and how can it be used in your games to smooth and interpret values.
+- [DataTypes](https://youtu.be/IVcx-tSxjys) - Learn the important differences between Value and Reference data types, in order to better understand how variables work.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
 ## Resources
