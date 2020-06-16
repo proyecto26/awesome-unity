@@ -117,6 +117,25 @@ public class PlayerController : MonoBehaviour {
 }
   ```
 </details>
+<details>
+  <summary>Behaviour Components</summary>
+  
+  ```csharp
+using UnityEngine;
+using System.Collections;
+
+public class ExampleBehaviourScript : MonoBehaviour
+{
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            GetComponent<Renderer> ().material.color = Color.red;
+        }
+    }
+}
+  ```
+</details>
 
 ## Editor
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
