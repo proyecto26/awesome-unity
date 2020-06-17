@@ -555,6 +555,10 @@ public class EnumScript : MonoBehaviour
 - [Awesome Unity FREE](https://github.com/netpyoung/awesome-unity-free) - A community driven list of useful Unity Game Engine "FREE" packages, libraries and others.
 - [Awesome Unity Community](https://github.com/UnityCommunity/AwesomeUnityCommunity) - A categorized community-driven collection of high-quality awesome Unity assets, projects, and resources.
 
+## Concepts
+* **3DOF:** A term often used in the context of virtual reality, refers to tracking of rotational motion only: pitch, yaw, and roll.
+* **6DOF:** Refers to the freedom of movement of a rigid body in three-dimensional space.
+
 ## Supporting 🍻
 I believe in Unicorns 🦄
 Support [me](http://www.paypal.me/jdnichollsc/2), if you do too.
