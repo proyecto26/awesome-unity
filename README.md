@@ -488,6 +488,11 @@ public class EnumScript : MonoBehaviour
 ## Platforms
 - [Native Toolkit](https://github.com/ryanw3bb/unity-native-toolkit) - Easily integrate native iOS & Android functionality into Unity projects.
 
+### Augmented reality
+- [ARCore](https://developers.google.com/ar/develop/unity) - Build new augmented reality experiences that seamlessly blend the digital and physical worlds. Transform the way people play, shop, learn, create, and experience the world together—at Google scale.
+- [ARKit](https://developer.apple.com/augmented-reality) - Build unparalleled augmented reality experiences for hundreds of millions of users on iOS and iPadOS, the biggest AR platforms in the world.
+- [Vuforia](https://engine.vuforia.com/engine) - The World’s Most Widely Deployed AR.
+
 ## Guides
 - [Coding in C# in Unity for beginners](https://unity3d.com/learning-c-sharp-in-unity-for-beginners) - The very basics of coding, like variables, functions and classes, and how to use them.
 
