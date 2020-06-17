@@ -536,9 +536,6 @@ public class EnumScript : MonoBehaviour
 - [Creating a Text Based Adventure Part 2](https://youtu.be/Bak8azAM_cA) - Learn how to to display the descriptions of all the items in a room when we enter it.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
 
-## Resources
-- [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) - A wonderful list of Game Development resources.
-
 ## Tools
 - [OpenUPM](https://openupm.com) - Open Source Unity Package Registry.
 
@@ -550,6 +547,7 @@ public class EnumScript : MonoBehaviour
 - [.Net Documentation](https://github.com/proyecto26/dotnet-documentation) - SOLID, DI, N-Tier, Logs, etc with dotnet.
 
 ## Other Awesome Lists
+- [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) - A wonderful list of Game Development resources.
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d) - A categorized collection of awesome opensource unity3d repos.
 - [Awesome Unity Open Source on GitHub (800+)](https://github.com/baba-s/awesome-unity-open-source-on-github) - A categorized collection of awesome Unity open source on GitHub.
 - [Awesome Unity FREE](https://github.com/netpyoung/awesome-unity-free) - A community driven list of useful Unity Game Engine "FREE" packages, libraries and others.
