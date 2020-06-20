@@ -33,6 +33,9 @@
 ## Runner
 - [InfiniteRunner3D](https://github.com/dgkanatsios/InfiniteRunner3D) - Creating an infinite 3D runner game in Unity.
 
+## Sandbox
+- [CubeWorld](https://github.com/federicodangelo/CubeWorld) - Minecraft like game made in Unity.
+
 ## Shooter
 - [Multiplayer-FPS](https://github.com/Armour/Multiplayer-FPS) - A multiplayer first-person shooter game based on Unity3D. Different types of input devices are supported, including Kinect, Xbox controllers, Leap motion, and VR Glasses.
 
@@ -57,6 +60,7 @@
 - [2D-Platformer-Hunter](https://github.com/ta-david-yu/2D-Platformer-Hunter) - A 2D Platformer Controller in Unity.
 
 ## Editor
+- [Runtime Unity Editor/Debugging Tools](https://github.com/ManlyMarco/RuntimeUnityEditor) - In-game inspector and debugging tools for applications made with Unity3D game engine.
 - [Path-Creator](https://github.com/SebLague/Path-Creator) - An intuitive and lightweight editor for quickly creating smooth paths in the editor.
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
 
@@ -70,6 +74,10 @@
 
 ## Platforms
 - [Native Toolkit](https://github.com/ryanw3bb/unity-native-toolkit) - Easily integrate native iOS & Android functionality into Unity projects.
+
+## Utilities
+- [Yarn Spinner](https://github.com/YarnSpinnerTool/YarnSpinner) - A tool for building interactive dialogue in games!
+- [Unity2D Components](https://github.com/cmilr/Unity2D-Components) - A varied collection of Unity3D components that I've built for use in the 2D Platformer/RPG I'm currently developing.
 
 ## Guides
 - [Coding in C# in Unity for beginners](https://unity3d.com/learning-c-sharp-in-unity-for-beginners) - The very basics of coding, like variables, functions and classes, and how to use them.
