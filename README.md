@@ -48,7 +48,7 @@
   <img width="600px" alt="Awesome Resources" src="img/res.png">
 </p>
 
-## Examples
+## Code Examples
 - [Code Basics](./CODE_BASICS.md)
 
 ## Augmented reality
