@@ -16,19 +16,41 @@
   </p>
 </p>
 
+## Puzzle
+- [Nodulus](https://github.com/Hyperparticle/nodulus) - A puzzle game with a clever twist. Based on the mathematical theory behind plank puzzles, consists of a grid of cubes and rods which can be rotated with a swipe.
+- [Angry Birds style game](https://github.com/dgkanatsios/AngryBirdsStyleGame) - An effort to replicate a level and relevant mechanisms of Rovio's famous Angry Birds game, built in Unity game engine. Source code is provided for educational purposes.
+
+## Runner
+- [InfiniteRunner3D](https://github.com/dgkanatsios/InfiniteRunner3D) - Creating an infinite 3D runner game in Unity.
+
+## Shooter
+- [Multiplayer-FPS](https://github.com/Armour/Multiplayer-FPS) - A multiplayer first-person shooter game based on Unity3D. Different types of input devices are supported, including Kinect, Xbox controllers, Leap motion, and VR Glasses.
+
+---
+
+<p align="center">
+  <img width="600px" alt="Awesome Resources" src="img/res.png">
+</p>
+
 ## Examples
 - [Code Basics](./CODE_BASICS.md)
+
+## Augmented reality
+- [ARCore](https://developers.google.com/ar/develop/unity) - Build new augmented reality experiences that seamlessly blend the digital and physical worlds. Transform the way people play, shop, learn, create, and experience the world together—at Google scale.
+- [ARKit](https://developer.apple.com/augmented-reality) - Build unparalleled augmented reality experiences for hundreds of millions of users on iOS and iPadOS, the biggest AR platforms in the world.
+- [Vuforia](https://engine.vuforia.com/engine) - The World’s Most Widely Deployed AR.
+
+## Controllers
+- [2D-Platformer-Hunter](https://github.com/ta-david-yu/2D-Platformer-Hunter) - A 2D Platformer Controller in Unity.
+
+## Editor
+- [Path-Creator](https://github.com/SebLague/Path-Creator) - An intuitive and lightweight editor for quickly creating smooth paths in the editor.
+- [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
 
 ## Scripting
 - [UniRx](https://github.com/neuecc/UniRx) - Reactive Extensions for Unity.
 - [C-Sharp-Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise) - Promises library for C# for management of asynchronous operations.
 - [FSM_Command_Patterns](https://github.com/hansschaa/FSM_Command_Patterns) - A basic platform game developed for help to undertanding State pattern and Command pattern.
-
-## Editor
-- [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
-
-## Controllers
-- [2D-Platformer-Hunter](https://github.com/ta-david-yu/2D-Platformer-Hunter) - A 2D Platformer Controller in Unity.
 
 ## Networking
 - [RestClient](https://github.com/proyecto26/RestClient) - 🦄 Simple HTTP and REST client for Unity based on Promises, also supports Callbacks! 🎮.
@@ -36,13 +58,9 @@
 ## Platforms
 - [Native Toolkit](https://github.com/ryanw3bb/unity-native-toolkit) - Easily integrate native iOS & Android functionality into Unity projects.
 
-### Augmented reality
-- [ARCore](https://developers.google.com/ar/develop/unity) - Build new augmented reality experiences that seamlessly blend the digital and physical worlds. Transform the way people play, shop, learn, create, and experience the world together—at Google scale.
-- [ARKit](https://developer.apple.com/augmented-reality) - Build unparalleled augmented reality experiences for hundreds of millions of users on iOS and iPadOS, the biggest AR platforms in the world.
-- [Vuforia](https://engine.vuforia.com/engine) - The World’s Most Widely Deployed AR.
-
 ## Guides
 - [Coding in C# in Unity for beginners](https://unity3d.com/learning-c-sharp-in-unity-for-beginners) - The very basics of coding, like variables, functions and classes, and how to use them.
+- [Design Patterns Written in Unity3D](https://github.com/QianMo/Unity-Design-Pattern) - All Gang of Four Design Patterns written in Unity C# with many examples.
 
 ## Tutorials
 - [Introduction to Roll-a-Ball](https://youtu.be/RFlh8pTf4DU) - An introduction to the Roll-a-ball project, showing the final game and describing what will be covered in this tutorials.
