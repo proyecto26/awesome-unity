@@ -16,15 +16,28 @@
   </p>
 </p>
 
+## Adventure
+- [San Andreas Unity](https://github.com/GTA-ASM/SanAndreasUnity) - An open source reimplementation of GTA San Andreas game engine in Unity.
+
 ## Puzzle
 - [Nodulus](https://github.com/Hyperparticle/nodulus) - A puzzle game with a clever twist. Based on the mathematical theory behind plank puzzles, consists of a grid of cubes and rods which can be rotated with a swipe.
 - [Angry Birds style game](https://github.com/dgkanatsios/AngryBirdsStyleGame) - An effort to replicate a level and relevant mechanisms of Rovio's famous Angry Birds game, built in Unity game engine. Source code is provided for educational purposes.
+- [Match-3 game](https://github.com/dgkanatsios/MatchThreeGame) - A match-3 game in Unity (like Candy Crush and Bejeweled).
+
+## Role
+- [Darkest Dungeon](https://github.com/Reinisch/Darkest-Dungeon-Unity) - Darkest Dungeon port in Unity. Almost completely identical to the original.
+
+## RPG
+- [Hogwarts](https://github.com/OpenHogwarts/hogwarts) - A Hogwarts (Harry Potter) open sandbox game made in Unity.
 
 ## Runner
 - [InfiniteRunner3D](https://github.com/dgkanatsios/InfiniteRunner3D) - Creating an infinite 3D runner game in Unity.
 
 ## Shooter
 - [Multiplayer-FPS](https://github.com/Armour/Multiplayer-FPS) - A multiplayer first-person shooter game based on Unity3D. Different types of input devices are supported, including Kinect, Xbox controllers, Leap motion, and VR Glasses.
+
+## Strategy
+- [Starcraft Unity3D](https://github.com/coconauts/startcraft-unity3d) - A recreation of the classic Starcraft game by Blizzard, on Unity3D.
 
 ---
 
