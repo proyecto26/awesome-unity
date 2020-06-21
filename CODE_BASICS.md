@@ -431,7 +431,7 @@ public class EnumScript : MonoBehaviour
 {
     enum Direction {North, East, South, West};
 
-        void Start () 
+    void Start () 
     {
         Direction myDirection;
 
