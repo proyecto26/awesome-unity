@@ -1,6 +1,8 @@
 # Code Basics
-<details>
-  <summary>Player Movement</summary>
+A list of common topics working with C# in Unity
+
+<details open>
+  <summary><b>Player Movement</b></summary>
 
   ```csharp
   using UnityEngine;
@@ -29,8 +31,8 @@
   }
   ```
 </details>
-<details>
-  <summary>Moving Camera</summary>
+<details open>
+  <summary><b>Moving Camera</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -54,8 +56,8 @@ public class CameraController : MonoBehaviour {
 }
   ```
 </details>
-<details>
-  <summary>Collectable Objects</summary>
+<details open>
+  <summary><b>Collectable Objects</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -73,8 +75,8 @@ public class PlayerController : MonoBehaviour {
 }
   ```
 </details>
-<details>
-  <summary>Score Display</summary>
+<details open>
+  <summary><b>Score Display</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -114,8 +116,8 @@ public class PlayerController : MonoBehaviour {
 }
   ```
 </details>
-<details>
-  <summary>Behaviour Components</summary>
+<details open>
+  <summary><b>Behaviour Components</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -133,8 +135,8 @@ public class ExampleBehaviourScript : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Check State</summary>
+<details open>
+  <summary><b>Check State</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -152,8 +154,8 @@ public class CheckState : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Translate and Rotate</summary>
+<details open>
+  <summary><b>Translate and Rotate</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -181,8 +183,8 @@ public class TransformFunctions : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Look At</summary>
+<details open>
+  <summary><b>Look At</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -199,8 +201,8 @@ public class CameraLookAt : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Linear Interpolation</summary>
+<details open>
+  <summary><b>Linear Interpolation</b></summary>
 
   ```csharp
 // In this case, result = 4
@@ -224,8 +226,8 @@ void Update ()
 }
   ```
 </details>
-<details>
-  <summary>GetAxis Horizontal and Vertical</summary>
+<details open>
+  <summary><b>GetAxis Horizontal and Vertical</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -249,8 +251,8 @@ public class DualAxisExample : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>OnMouseDown</summary>
+<details open>
+  <summary><b>OnMouseDown</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -266,8 +268,8 @@ public class MouseClick : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Using Other Components</summary>
+<details open>
+  <summary><b>Using Other Components</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -297,8 +299,8 @@ public class UsingOtherComponents : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Using Delta Times</summary>
+<details open>
+  <summary><b>Using Delta Times</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -321,8 +323,8 @@ public class UsingDeltaTime : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Using Data Types</summary>
+<details open>
+  <summary><b>Using Data Types</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -343,8 +345,8 @@ public class DatatypeScript : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Using Instantiate</summary>
+<details open>
+  <summary><b>Using Instantiate</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -367,8 +369,8 @@ public class UsingInstantiate : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Arrays</summary>
+<details open>
+  <summary><b>Arrays</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -390,8 +392,8 @@ public class Arrays : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Invoke</summary>
+<details open>
+  <summary><b>Invoke</b></summary>
 
   ```csharp
 using UnityEngine;
@@ -418,8 +420,8 @@ public class InvokeScript : MonoBehaviour
 }
   ```
 </details>
-<details>
-  <summary>Enumerations</summary>
+<details open>
+  <summary><b>Enumerations</b></summary>
 
   ```csharp
 using UnityEngine;
