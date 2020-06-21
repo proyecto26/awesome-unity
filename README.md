@@ -49,7 +49,8 @@
 </p>
 
 ## Code Examples
-- [Code Basics](./CODE_BASICS.md)
+- [Basics](./CODE_BASICS.md)
+- [Intermediate](./CODE_INTERMEDIATE.md)
 
 ## Augmented reality
 - [ARCore](https://developers.google.com/ar/develop/unity) - Build new augmented reality experiences that seamlessly blend the digital and physical worlds. Transform the way people play, shop, learn, create, and experience the world together—at Google scale.
