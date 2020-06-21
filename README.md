@@ -8,7 +8,7 @@
 </p>
 
 <h1 align="center">Awesome Unity Games 🎮</h1>
-<h4 align="center">A curated list of awesome Unity Games (Open Source), assets and resources.</h4>
+<h4 align="center">A curated list of awesome Unity Games (Open Source), code examples and resources.</h4>
 <p align="center">
   <img width="600px" alt="Unity Games" src="img/unity-games.png">
   <p align="center">
