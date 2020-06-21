@@ -1,5 +1,5 @@
 # Code Basics
-A list of common topics working with C# in Unity
+A list of basics topics working with C# in Unity
 
 <details open>
   <summary><b>Player Movement</b></summary>
