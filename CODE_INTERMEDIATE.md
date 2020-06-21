@@ -137,7 +137,7 @@ A list of intermediate topics working with C# in Unity
   public class TaskController : MonoBehaviour
   {
       public List<Task> tasks;
-      private IEnumerator ExecuteTasks()
+      private IEnumerator ExecuteTasksInSeries()
       {
           foreach(var task in tasks) {
               task.doSomething();
@@ -157,9 +157,9 @@ A list of intermediate topics working with C# in Unity
           Debug.Log("I just wasted for a second, it's not affected by scaled time");
       }
 
-      public void Run()
+      public void RunSeries()
       {
-          StartCoroutine(ExecuteTasks());
+          StartCoroutine(ExecuteTasksInSeries());
       }
   }
   ```
