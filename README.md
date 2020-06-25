@@ -66,6 +66,7 @@
 - [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
 
 ## Scripting
+- [ScriptableObject-Architecture](https://github.com/DanielEverland/ScriptableObject-Architecture) - Makes using Scriptable Objects as a fundamental part of your architecture in Unity super easy.
 - [UniRx](https://github.com/neuecc/UniRx) - Reactive Extensions for Unity.
 - [C-Sharp-Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise) - Promises library for C# for management of asynchronous operations.
 - [FSM_Command_Patterns](https://github.com/hansschaa/FSM_Command_Patterns) - A basic platform game developed for help to undertanding State pattern and Command pattern.
