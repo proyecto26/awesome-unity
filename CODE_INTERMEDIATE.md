@@ -179,3 +179,86 @@ A list of intermediate topics working with C# in Unity
   }
   ```
 </details>
+<details open>
+  <summary><b>Events</b></summary>
+
+  - EventManager.cs
+  
+  ```csharp
+  using UnityEngine;
+  using System.Collections;
+
+  public class EventManager : MonoBehaviour 
+  {
+      public delegate void ClickAction();
+      public static event ClickAction OnClicked;
+
+
+      void OnGUI()
+      {
+          if(GUI.Button(new Rect(Screen.width / 2 - 50, 5, 100, 30), "Click"))
+          {
+              if(OnClicked != null)
+                  OnClicked();
+          }
+      }
+  }
+  ```
+
+  - TeleportScript.cs
+  
+  ```csharp
+  using UnityEngine;
+  using System.Collections;
+
+  public class TeleportScript : MonoBehaviour 
+  {
+      void OnEnable()
+      {
+          EventManager.OnClicked += Teleport;
+      }
+
+
+      void OnDisable()
+      {
+          EventManager.OnClicked -= Teleport;
+      }
+
+
+      void Teleport()
+      {
+          Vector3 pos = transform.position;
+          pos.y = Random.Range(1.0f, 3.0f);
+          transform.position = pos;
+      }
+  }
+  ```
+
+  - TurnColorScript.cs
+  
+  ```csharp
+  using UnityEngine;
+  using System.Collections;
+
+  public class TurnColorScript : MonoBehaviour 
+  {
+      void OnEnable()
+      {
+          EventManager.OnClicked += TurnColor;
+      }
+
+
+      void OnDisable()
+      {
+          EventManager.OnClicked -= TurnColor;
+      }
+
+
+      void TurnColor()
+      {
+          Color col = new Color(Random.value, Random.value, Random.value);
+          renderer.material.color = col;
+      }
+  }
+  ```
+</details>
