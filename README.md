@@ -130,6 +130,7 @@
 - [Invoke](https://youtu.be/-YgM4DXGeq4) - The Invoke functions allow you to schedule method calls to occur at a later time.
 - [Enumerations](https://youtu.be/L2E2aB1CMYw) - Enumerations allow you to create a collection of related constants.
 - [Switch Statements](https://youtu.be/-PWvI3q6_OE) - Switch statements act like streamline conditionals. They are useful for when you want to compare a single variable against a series of constants.
+- [Events](https://youtu.be/k4JlFxPcqlg) - Learn how to use special delegates called Events in order to subscribe methods (functions) to create flexible broadcast systems in your code.
 - [Creating a Text Based Adventure Part 1](https://youtu.be/jAf1I1UWo5Q) - Learn how to program a text based adventure game in which the player explores a series of rooms by reading text and inputting commands via the keyboard.
 - [Creating a Text Based Adventure Part 2](https://youtu.be/Bak8azAM_cA) - Learn how to to display the descriptions of all the items in a room when we enter it.
 - [How to Play Test Game Mods (Official Unity Tutorial)](https://youtu.be/kZCJmKVQAPQ) - In the Play Testing In-Editor Tutorial, you will learn how to play and mod your Microgame in Unity.
