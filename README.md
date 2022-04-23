@@ -71,7 +71,7 @@
 ## Editor
 - [Runtime Unity Editor/Debugging Tools](https://github.com/ManlyMarco/RuntimeUnityEditor) - In-game inspector and debugging tools for applications made with Unity3D game engine.
 - [Path-Creator](https://github.com/SebLague/Path-Creator) - An intuitive and lightweight editor for quickly creating smooth paths in the editor.
-- [UIWidgets](https://github.com/UnityTech/UIWidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
+- [UIWidgets](https://github.com/Unity-Technologies/com.unity.uiwidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
 
 ## Scripting
 - [ScriptableObject-Architecture](https://github.com/DanielEverland/ScriptableObject-Architecture) - Makes using Scriptable Objects as a fundamental part of your architecture in Unity super easy.
