@@ -72,12 +72,14 @@
 - [Runtime Unity Editor/Debugging Tools](https://github.com/ManlyMarco/RuntimeUnityEditor) - In-game inspector and debugging tools for applications made with Unity3D game engine.
 - [Path-Creator](https://github.com/SebLague/Path-Creator) - An intuitive and lightweight editor for quickly creating smooth paths in the editor.
 - [UIWidgets](https://github.com/Unity-Technologies/com.unity.uiwidgets) - A Unity Package which helps developers to create, debug and deploy efficient, cross-platform Apps.
+- [unity-cli-plugin](https://github.com/niqibiao/unity-cli-plugin) - AI coding agent plugin for Unity Editor supporting Claude Code and Codex CLI. 40+ built-in commands for scene editing, components, assets, screenshots, and profiling; falls back to a full Roslyn C# REPL.
 
 ## Scripting
 - [ScriptableObject-Architecture](https://github.com/DanielEverland/ScriptableObject-Architecture) - Makes using Scriptable Objects as a fundamental part of your architecture in Unity super easy.
 - [UniRx](https://github.com/neuecc/UniRx) - Reactive Extensions for Unity.
 - [C-Sharp-Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise) - Promises library for C# for management of asynchronous operations.
 - [FSM_Command_Patterns](https://github.com/hansschaa/FSM_Command_Patterns) - A basic platform game developed for help to undertanding State pattern and Command pattern.
+- [CSharp Console](https://github.com/niqibiao/unity-csharpconsole) - Interactive Roslyn-powered C# REPL for Unity Editor and Runtime. Persistent session state, private member access, remote Player execution via HybridCLR, and an extensible command framework.
 
 ## Networking
 - [RestClient](https://github.com/proyecto26/RestClient) - 🦄 Simple HTTP and REST client for Unity based on Promises, also supports Callbacks! 🎮.
