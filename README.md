@@ -138,6 +138,7 @@
 
 ## Tools
 - [OpenUPM](https://openupm.com) - Open Source Unity Package Registry.
+- [VersionAlert for Unity](https://versionalert.com/unity) - Tracks Unity Editor, Unity Hub, and Unity package releases in one place.
 
 ## YouTube Channels
 - [Brackeys](https://www.youtube.com/user/Brackeys/videos) - Game Dev Tutorials
