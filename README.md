@@ -90,8 +90,8 @@
 - [Unity2D Components](https://github.com/cmilr/Unity2D-Components) - A varied collection of Unity3D components that I've built for use in the 2D Platformer/RPG I'm currently developing.
 - [Unity Image Cropper](https://github.com/yasirkula/UnityImageCropper) - A uGUI based image cropping solution for Unity 3D.
 - [ChainSafe Gaming](https://github.com/ChainSafe/web3.unity) - Unity SDK for building games that interact with blockchains.
-- [Body Motion Capture and Animation](https://github.com/ShutovKS/Body-motion-capture-and-animation-in-Unity) - Body motion capture with Python and OpenCV, real-time data transfer to Unity, and character animation using IK.
-- [Hand Motion Capture and Animation](https://github.com/ShutovKS/Hand-motion-capture-and-animation-in-Unity) - Hand motion capture with Python and OpenCV, real-time data transfer to Unity, and hand animation.
+- [Body Motion Capture and Animation](https://github.com/SkS-GameDev/Body-motion-capture-and-animation-in-Unity) - Body motion capture with Python and OpenCV, real-time data transfer to Unity, and character animation using IK.
+- [Hand Motion Capture and Animation](https://github.com/SkS-GameDev/Hand-motion-capture-and-animation-in-Unity) - Hand motion capture with Python and OpenCV, real-time data transfer to Unity, and hand animation.
 
 ## Guides
 - [Coding in C# in Unity for beginners](https://unity3d.com/learning-c-sharp-in-unity-for-beginners) - The very basics of coding, like variables, functions and classes, and how to use them.
