@@ -23,6 +23,7 @@
 - [Nodulus](https://github.com/Hyperparticle/nodulus) - A puzzle game with a clever twist. Based on the mathematical theory behind plank puzzles, consists of a grid of cubes and rods which can be rotated with a swipe.
 - [Angry Birds style game](https://github.com/dgkanatsios/AngryBirdsStyleGame) - An effort to replicate a level and relevant mechanisms of Rovio's famous Angry Birds game, built in Unity game engine. Source code is provided for educational purposes.
 - [Match-3 game](https://github.com/dgkanatsios/MatchThreeGame) - A match-3 game in Unity (like Candy Crush and Bejeweled).
+- [Sliding Puzzle](https://github.com/SkS-GameDev/Sliding-Puzzle) - A sliding puzzle game with number and image modes, difficulty levels from 2x2 to 9x9, available on PC, web, and Android.
 
 ## Role
 - [Darkest Dungeon](https://github.com/Reinisch/Darkest-Dungeon-Unity) - Darkest Dungeon port in Unity. Almost completely identical to the original.
