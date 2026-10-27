@@ -148,6 +148,7 @@
 
 ## Other Awesome Lists
 - [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) - A wonderful list of Game Development resources.
+- [RespawnStack](https://respawnstack.com) - Curated directory of AI tools for game developers.
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d) - A categorized collection of awesome opensource unity3d repos.
 - [Awesome Unity Open Source on GitHub (800+)](https://github.com/baba-s/awesome-unity-open-source-on-github) - A categorized collection of awesome Unity open source on GitHub.
 - [Awesome Unity FREE](https://github.com/netpyoung/awesome-unity-free) - A community driven list of useful Unity Game Engine "FREE" packages, libraries and others.
